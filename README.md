@@ -1,15 +1,16 @@
 [![View Classify crack image using deep learning and explain "WHY"   on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/75418-classify-crack-image-using-deep-learning-and-explain-why)
-# Classify crack image and explain why 
+# Classify crack image and explain why using MATLAB
 
 **[English]**
 
-This demo shows how to fine-tune a pretrained deep convolutional network called SqueezeNet [1] to perform a crack/normal image classification. The classification output was discussed using a technique to "explain why" called grad-cam. This script was created based on the official documentation [2]. For the grad-cam, I referred to [3]. About fine-tuning, please refer to the additional explanation [a] at the end of this script. In this demo, we use a dataset of concrete crack images introduced by L. Zhang [4]. The data is available at [5]. 
+This demo shows how to fine-tune a pretrained deep convolutional network called SqueezeNet [1] to perform a crack/normal image classification. The classification output was discussed using a technique to "explain why" called grad-cam as shown below. This script was created based on the official documentation [2]. For the grad-cam, I referred to [3]. About fine-tuning, please refer to the additional explanation [a] at the end of this script. In this demo, we use a dataset of concrete crack images introduced by L. Zhang [4]. The data is available at [5]. 
 
 **[Japanese]**
 
 この例では、深層学習を用いて、ひび割れ画像を分類するコードを示します。あらかじめ大規模な画像のデータセットで学習し、よい画像の特徴を捉えられる事前学習ネットワークを用いて、その構造をもとに学習したり、その重み初期値として利用します。また、grad-camとよばれる手法を用いて、分類の際に重要視された領域を可視化します。この例では、事前学習ネットワークの中でも非常にサイズの小さい、SqueezeNet [1] を用います。また、本デモでは、[2] [3]にある、公式ドキュメントを参考にしました。データセットは、[4]の論文で紹介されているデータセット [5]を用いました。
 
-[Key words]
+![figure_2.png](README_images/figure_2.png)
+**[Key words]**
 
 class activation mapping, classification, crack, deep learning, explainable, grad-cam
 
