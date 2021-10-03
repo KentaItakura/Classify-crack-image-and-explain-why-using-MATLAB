@@ -9,7 +9,8 @@ This demo shows how to fine-tune a pretrained deep convolutional network called 
 
 この例では、深層学習を用いて、ひび割れ画像を分類するコードを示します。あらかじめ大規模な画像のデータセットで学習し、よい画像の特徴を捉えられる事前学習ネットワークを用いて、その構造をもとに学習したり、その重み初期値として利用します。また、grad-camとよばれる手法を用いて、分類の際に重要視された領域を可視化します。この例では、事前学習ネットワークの中でも非常にサイズの小さい、SqueezeNet [1] を用います。また、本デモでは、[2] [3]にある、公式ドキュメントを参考にしました。データセットは、[4]の論文で紹介されているデータセット [5]を用いました。
 
-![figure_2.png](README_images/figure_2.png)
+![figure_2.png](README_images/figure_2.png)  
+
 **[Key words]**
 
 class activation mapping, classification, crack, deep learning, explainable, grad-cam
