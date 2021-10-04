@@ -1,5 +1,5 @@
 [![View Classify crack image using deep learning and explain "WHY"   on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://jp.mathworks.com/matlabcentral/fileexchange/75418-classify-crack-image-using-deep-learning-and-explain-why)
-# Classify crack image and explain why using MATLAB
+# Classify crack images and explain why using MATLAB
 
 **[English]**
 
@@ -15,13 +15,13 @@ This demo shows how to fine-tune a pretrained deep convolutional network called 
 
 class activation mapping, classification, crack, deep learning, explainable, grad-cam
 
-[1] Iandola, Forrest N., Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, and Kurt Keutzer. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).
+[1] [Iandola, Forrest N., Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, and Kurt Keutzer. "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5 MB model size." arXiv preprint arXiv:1602.07360 (2016).](https://arxiv.org/abs/1602.07360)
 
 [2] Matlab Documentation: [Train Deep Learning Network to Classify New Images](https://jp.mathworks.com/help/deeplearning/ug/train-deep-learning-network-to-classify-new-images.html)
 
 [3] Matlab Documentation: [Grad-CAM Reveals the Why Behind Deep Learning Decisions](https://jp.mathworks.com/help/deeplearning/ug/gradcam-explains-why.html?lang=en)
 
-[4] Zhang, Lei, et al. "Road crack detection using deep convolutional neural network." *2016 IEEE international conference on image processing (ICIP)*. IEEE, 2016.
+[4] [Zhang, Lei, et al. "Road crack detection using deep convolutional neural network." *2016 IEEE international conference on image processing (ICIP)*. IEEE, 2016.](https://ieeexplore.ieee.org/abstract/document/7533052)
 
 [5] [Concrete Crack Images for Classification](https://data.mendeley.com/datasets/5y9wdsg2zt/1) 
 
